@@ -1,0 +1,93 @@
+*                                     
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #f1f3f4;
+	font-family: sans-serif;
+}
+.top-nav-bar
+{
+	height:57px;
+	top:0;
+	position:sticky;
+	background:#2471A3;
+	margin-bottom: 20px;
+	border-bottom:3px solid blue;
+	z-index:2;
+}
+
+
+.top-nav-bar h1
+{
+	color:#fff;
+	font-family:Brush-Script-MT;
+	font-style: italic;
+	position:center;
+	margin-left:20px;
+}
+
+body
+{
+	
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(images/b3.jpg);
+	background-size:cover;
+	background-position: center;
+	
+}
+.Signup-box 
+{
+	max-width:700px;
+	float:none;
+	margin:100px auto;
+	background:rgba(211,211,211,0.5);
+	padding:30px;
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.5);
+	
+}
+
+.form-control
+{
+	background-color:transparent !important;
+	margin-left:30px;
+	
+}
+
+.Signup-box .btn-primary
+{
+	background:#2471A3 !important;
+	color:#fff;
+	font-size:15px;
+	margin-left:250px;
+	border:none;
+	box-shadow:none !important;
+	font-weight:bold;
+	margin-top:40px;
+	
+}
+
+.Signup-box input
+{
+	border:1px solid #ccc;
+	font-weight:bold;
+	height:33px;
+	text-align:center;
+	width:300px;
+	margin-bottom:20px;
+}
+
+.form-group
+{
+	font-weight:bold;
+	margin-top:10px;
+	color: #FDFEFE;
+	margin-left:30px;
+}
+
+.header h2
+{
+	margin-bottom:15px;
+}

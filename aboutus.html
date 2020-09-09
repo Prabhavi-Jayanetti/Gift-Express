@@ -1,0 +1,169 @@
+<html>          
+	<head>
+		<title> GIFT EXPRESS </title>
+		<link rel = "stylesheet" href = "style.css">
+		<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+		<div class = "top-nav-bar"> 
+			<div class = "Search-box">
+				<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+				<i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+				
+			<a href="index.html"><img src = "images/logo.png" class="logo"></a>
+			<input type="text" class="form-control">
+			<span class="input-group-text"> <i class="fa fa-search"></i> </span>
+		</div>
+		<div class= "menu-bar">
+			<ul>
+				<li><a href="http://localhost/giftexpress/signup.php">Sign Up</a></li>
+				<li><a href="http://localhost/giftexpress/Login.php">Log In</a></li>
+				<li><a href="#"><i class="fa fa-shopping-cart"></i>Cart</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+			</ul>
+		</div>
+		</div>
+		
+		<section class="aboutus">
+		<div class="container" >
+				<h4 align = "center">About Us</h4>
+				<hr>
+				<p>We are here to reinvent shopping and to get you the perfect gift every time!</p>
+
+				<p>Gift Express is the innovative way to fulfill all your shopping needs online. 
+				So no matter if you are buying a gift for a loved one or just looking for a little something to treat yourself, 
+				Gift Express got you covered! Whatever your heart desires, we have it in store and will be at your doorstep before you know it.</p>
+
+				<p>At Gift Express our principle is simple, Give the very best to all our customers. 
+				This includes providing a professional customer service, hassle free delivery, and stocking finest quality latest products in today's market. 
+				So our customers can sit back, relax & click away on all their wishes. We have our very own in-house delivery team and vehicles. 
+				Our delivery buddies receive frequent professional training and constant supervision 
+				to ensure our customers get their delivery on time with extra care and a big smile.</p>
+
+				<p>Gift Express is handled and Managed by Fexcon, An Innovative global leader in tech solutions.
+				We've been in the business for nearly a decade now, physically based in Australia, New Zealand, and Sri Lanka.
+				We ensure around the clock support coupled with the leading of today's technology.</p>
+			</div>
+			
+	 		<div class="container" >
+				<h4 align = "center">Our Story</h4>
+				<hr>
+				<p>What if there is a way to stay at home and shop, or sneak away for 10 minutes during your 
+				lunch break without getting caught? Well sure you can shop online, but what about the quality of the products 
+				they have for sale? And delivery! Who can pay for sub-par delivery that takes 7 days to get here and deal with rude drivers who have zero care for your 
+				package? And forget about sending online gifts, because nobody wants the wrong gift 5 days after their birthday! 
+				Don't you wish there is a better way? Don't you just wish someone understands all this?</p>
+				
+				<p>Well, we do! That is why we made Gift Express, while everyone else was busy at Fexcon making the next big thing in tech and business,
+				we wanted to give something to everyone! So we made Gift Express, One stop shop for Wishes of all sizes. We identified why people shy away from 
+				online shopping and created dream team to mediate all the issues of older systems. We have our shopping gurus scouring the globe to look for 
+				that perfect gift just for you, our delivery buddies are hard at work to make sure your gifts arrive on time with a great big smile.</p>
+				
+				<p>And frankly, we hope we are doing a good job. Because just like you, we are crazy shopaholics with a never ending need shop! 
+				If we could we'd shop while we are asleep and don't lie you would too!</p>
+				
+			</div>
+	 		
+	 
+	 	</div>
+	</section>
+	
+	
+	<section class="contact" align="center">
+	
+		<div class="container" >
+				<h4 align = "center">Contact Info</h4>
+				<hr>
+					<table border="0">
+						<tr>
+					         <th> <p align="left"><font size="5.0em" > Address:</font></p></th>
+					        <td> <img src="images/pos.jpg" align="right" style="width: 50px;height: 50px;" ></td></tr>
+					       <tr><td>   <P>Top Floor,No 132/3 ,Mainstreet,Colombo 04</p></td></tr>
+					       	<tr><td>********** ************* ***************** ******************* *******</td><td>***********************</td></tr>
+		 
+					        <tr><th><p align="left"><font size="5.0em" >Email  :</font></p></th>
+					       		<td> <img src="images/gmail.jpg" align="right" style="width: 70px;height: 70px;" ></td></tr>
+					           <tr><td>   <P><font size="4.0em" >giftexpress@gmail.com</font></p></td></tr> 	
+							<tr><td>********** ************* ***************** ******************* *******</td><td>***********************</td></tr>  
+					        <tr><th><p align="left"><font size="5.0em" >Instragram :</font></p></th>
+					       		<td> <img src="images/ins.jpg" align="right" style="width: 50px;height: 50px;" ></td></tr>
+					           <tr><td>   <P><font size="4.0em" >gift_express_sl</font></p></td></tr>					
+					</table>
+			</div>
+			</section>
+			<section class = "location">
+	
+			<div class="loc">
+						<p align="center"><font size="6.0em" weight="700">LOCATION ON MAP</font> </p>
+						<div class="locmap">
+						<div id="map" style="width:1400px;height:400px;background:yellow" align = "center"> </div>
+
+					<script>
+					function myMap() {
+						var mapOptions = {
+  					  center: new google.maps.LatLng(51.5, -0.12),
+  					  zoom: 10,
+  					  mapTypeId: google.maps.MapTypeId.HYBRID
+						}
+						var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+						}
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASR1jRjYnXgL1euXG0hZD6c804N3ZF_QQ&callback=myMap" align = "center"></script>
+					</div>
+					</div>
+					
+					
+					<div class="container" align = "center"> 
+					<hr>
+					<p class="PP" align = "center"><font size="5.0em" > FEEDBACK </font></p>
+					<p class="PP" align = "center"> Name </p>
+					<input type="text" placeholder="NAME" align = "center" ><br />
+					<p class="PP" align = "center"> Email </p>
+					<input type="email" placeholder="EMAIL" align = "center"><br/>
+					<p class="PP" align = "center"> Message </p>
+					<textarea rows="10" cols="50" align = "center">   </textarea><br/>
+					<p><input type="button" value="SEND MESSAGE" align = "center" /></p>
+					
+					
+					</div>
+			</section>		
+		
+		<!-----footer------>
+		<section class="footer">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-3">
+						<h1>Useful Links</h1>
+						<p>Privacy Policy</p>
+						<p>Terms of Use</p>
+						<p>Return Policy</p>
+						<p>Discounts</p>
+					</div>
+					<div class="col-md-3">
+						<h1>Company</h1>
+						<p>About Us</p>
+						<p>Contact Us</p>
+						<p>Career</p>
+					</div>
+					<div class="col-md-3 ">
+						<h1>Follow Us</h1>
+						<p><i class="fa fa-facebook-square"></i> Facebook</p>
+						<p><i class="fa fa-youtube-play"></i>YouTube</p>
+						<p><i class="fa fa-twitter-square"></i>Twitter</p>
+						<p><i class="fa fa-linkedin-square"></i>LinkedIn</p>
+					</div>
+					<div class="col-md-3 footer-image">
+						<h1>Download App</h1>
+						<img src="images/d1.jpg" width="150px" height="100px">
+					</div>
+				</div>
+					<hr>
+					<p class="copyright"><i class="fa fa-heart"></i> Made By Prabhavi B Jayanetti <i class="fa fa-heart"></i></p>
+			</div>
+		</section>
+	</body>
+</html>
